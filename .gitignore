@@ -1,0 +1,28 @@
+# ===== Secrets (JANGAN di-commit) =====
+frappe_api_keys_erp_mg.csv
+**/.env
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+
+# ===== Node / build =====
+node_modules/
+frontend/dist/
+frontend/dist-frappe/
+frontend/dev-dist/
+**/.vite/
+*.log
+
+# ===== Python / Frappe =====
+__pycache__/
+*.pyc
+*.pyo
+backend/stock_ops/stock_ops/public/stock_ops/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# Claude Code local
+.claude/
